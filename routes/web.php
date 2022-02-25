@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('about', function () {
-    return "2041720054 Yudas Malabi TI 2C";
+    return "Nim: 2041720054, <br>Nama: Yudas Malabi, <br>Kelas: TI 2C";
 });
 
 Route::get('articles/{id}', function ($id) {
